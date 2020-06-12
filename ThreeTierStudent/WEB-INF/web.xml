@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ThreeTierStudent</display-name>
+  <servlet>
+    <servlet-name>AddStudentServlet</servlet-name>
+   
+    <servlet-class>org.servlet.AddStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    
+    <servlet-class>org.servlet.DeleteStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateStudent_infoServlet</servlet-name>
+    
+    <servlet-class>org.servlet.UpdateStudent_infoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryStudentByidServlet</servlet-name>
+    
+    <servlet-class>org.servlet.QueryStudentByidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryAllStudentServlet</servlet-name>
+    
+    <servlet-class>org.servlet.QueryAllStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddStudentGradeServlet</servlet-name>
+    <servlet-class>org.servlet.AddStudentGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryAllStudentGradeServlet</servlet-name>
+    <servlet-class>org.servlet.QueryAllStudentGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryStudentGradeByidServlet</servlet-name>
+    <servlet-class>org.servlet.QueryStudentGradeByidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteStudentGradeServlet</servlet-name>
+    <servlet-class>org.servlet.DeleteStudentGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateStudent_gradeServlet</servlet-name>
+    <servlet-class>org.servlet.UpdateStudent_gradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>org.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentGradeBarGraphServlet</servlet-name>
+    <servlet-class>org.servlet.StudentGradeBarGraphServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExportExcelServlet</servlet-name>
+    <servlet-class>org.servlet.ExportExcelServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/AddStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <url-pattern>/DeleteStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateStudent_infoServlet</servlet-name>
+    <url-pattern>/UpdateStudent_infoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryStudentByidServlet</servlet-name>
+    <url-pattern>/QueryStudentByidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllStudentServlet</servlet-name>
+    <url-pattern>/QueryAllStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStudentGradeServlet</servlet-name>
+    <url-pattern>/AddStudentGradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllStudentGradeServlet</servlet-name>
+    <url-pattern>/QueryAllStudentGradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryStudentGradeByidServlet</servlet-name>
+    <url-pattern>/QueryStudentGradeByidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteStudentGradeServlet</servlet-name>
+    <url-pattern>/DeleteStudentGradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateStudent_gradeServlet</servlet-name>
+    <url-pattern>/UpdateStudent_gradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentGradeBarGraphServlet</servlet-name>
+    <url-pattern>/StudentGradeBarGraphServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportExcelServlet</servlet-name>
+    <url-pattern>/ExportExcelServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>QueryAllStudentServlet</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
